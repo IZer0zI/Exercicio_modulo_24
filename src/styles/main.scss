@@ -26,4 +26,8 @@ body {
     margin: 40px 0;
     font-size: 2.5em;
     color: variables.$corTextoSecundario;
+
+    @media (max-width: 767px) {
+        color: variables.$corTituloPrincipal;
+    }
 }
