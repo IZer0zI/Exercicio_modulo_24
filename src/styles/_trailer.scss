@@ -1,0 +1,17 @@
+.trailer {
+    background-image: url(../images/fundo_section__trailer.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 20px;
+    text-align: center;
+
+    &__title {
+        text-decoration: underline;
+        text-transform: uppercase;
+        font-weight: 900;
+    }
+
+    &__video {
+        max-width: 100%;
+    }
+}

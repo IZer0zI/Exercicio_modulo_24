@@ -1,0 +1,33 @@
+@use 'variables';
+
+.hero {
+    background-image: url('../images/fundo_section_title.png');
+    background-size: cover;
+    background-position: center;
+    color: variables.$corTituloPrincipal;
+    text-align: center;
+    padding: 200px 20px 100px;
+    position: relative;
+    top: 60px;
+
+    &__title {
+        color: variables.$corTituloPrincipal;
+        font-size: 3em;
+        margin: 0 0 20px;
+    }
+
+    &__text {
+        color: variables.$corTituloPrincipal;
+        font-size: 1.5em;
+        margin: 0 0 20px;
+    }
+
+    &__button {
+        background-color: variables.$corDeFundo;
+        color: variables.$corTextoSecundario;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 5px;
+        font-size: 1.2em;
+    }
+}

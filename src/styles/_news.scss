@@ -1,0 +1,33 @@
+@use 'variables';
+
+.news {
+    background-image: url(../images/fundo_section__news.jpg);
+    padding: 40px 20px;
+    text-align: center;
+
+    &__list {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+
+        &__item {
+            margin: 10px;
+            max-width: 300px;
+            
+            h3 {
+                font-size: 1.5em;
+                margin: 0 0 10px;
+                text-decoration: overline;
+                color: variables.$corTextoSecundario;
+            }
+
+            a {
+                text-decoration: none;
+
+                p {
+                    color: variables.$corTituloPrincipal;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,15 @@
+@use 'variables';
+
+.synopsis {
+    background-color: variables.$corTextoSecundario;
+    padding: 40px 20px;
+    text-align: center;
+
+    .section-title {
+        color: variables.$corTituloPrincipal;
+    }
+
+    &__text {
+        color: variables.$corTituloPrincipal;
+    }
+}

@@ -1,0 +1,41 @@
+@use 'variables';
+
+.header {
+    background-color: variables.$corDeFundo;
+    color: variables.$corTextoSecundario;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    text-align: center;
+
+    &__logo {
+        max-width: 200px;
+    }
+
+    .nav {
+    margin-top: 10px;
+
+    &__link {
+        color: variables.$corTextoSecundario;
+        text-decoration: none;
+        font-size: 1.2em;
+
+        &:hover {
+            color: variables.$corTituloPrincipal;
+        }
+    }
+
+    &__item {
+        display: inline;
+        margin: 0 15px;
+        text-transform: uppercase;
+    }
+
+    &__list {
+        list-style: none;
+        padding: 0;
+    }
+}
+}
